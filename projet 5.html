@@ -1,0 +1,390 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>carousel fading image</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-------------------------------------------- CSS Code ---------------------------------------------->
+  <!link href="css/corps.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+  <!------------------------------------------ bootstrap javascript ------------------------------------>
+  <!script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+ 
+  <style>
+  /* Mettre Images Entierement responsive */
+  .carousel-inner img {
+    width: 100%;
+    height:100%;
+    }
+
+  </style>
+
+
+  <style>
+  /* Cadre et Carte du Slider / Images */
+         .fakeimg {
+                   height: 300px;
+                   background: #aaa;
+                  }
+                  .btn-circle.btn-xl { 
+            width: 70px; 
+            height: 70px; 
+            padding: 10px 16px; 
+            border-radius: 35px; 
+            font-size: 12px; 
+            text-align: center; 
+        }
+        #baat{
+          margin-left: 50px;
+          margin-right: 50px;
+        }
+        .nav-link {
+
+            color: #000;
+            background: black;
+            margin-top: 20px;
+            margin-left: 50px;
+
+        }
+  </style>
+
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm fixed-top navbar-dark">
+        <a class="navbar-brand" href="#">Centres Amesip:</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsiblenavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="collapsiblenavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#">ENCS</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">CQIJA</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">CAEAA</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">CACS</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">KMKN</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">MJFF</a></li>
+        </ul>
+    </div>
+    </nav><br>
+    
+
+    <div class="container">
+        <div id="demo" class="carousel slide carousel-fade" data-ride="carousel">
+            <!...indicateurs..>
+            <ul class="carousel-indicators">
+                <li data-traget="#demo" data-slide-to="0" class="active"></li>
+                <li data-traget="#demo" data-slide-to="2"></li>
+                <li data-traget="#demo" data-slide-to="3"></li>
+            </ul>
+           
+            <div class="carousel-inner">
+                
+                <div class="carousel-item active" data-interval="4000">
+                    
+                    <img src="image/100.JPEG"  alt="carrousel slide 1" class="d-blok w-100">
+                </div>
+                
+                <div class="carousel-item" data-interval="2000">
+                    <img src="image/1.jpg" alt="carrousel slide 2" class="d-blok w-100">
+                </div>
+                <div class="carousel-item" data-interval="1000">
+                    <img src="image/33.png" alt="carrousel slide 3" class="d-blok w-100">
+                    
+            </div>
+            <!--------------------->
+        <!..controles...>
+        <a class="carousel-control-prev" href="#demo" role="button" data-slide="prev">
+        <span class="carousel-cotrol-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">précédent</span>
+        </a>
+        
+        <a class="carousel-control-next" href="#demo" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">suivant</span>
+            </a>
+
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="shadow p-3 mb-10 bg-white">
+            <h2 class="card-title">A M E S I P</h2>
+            <h3 class="card-subtitle"> Apropos</h3>
+            <p class="card-text">
+Association Marocaine d aide aux Enfants en situation Precaire, Reconnue d Utilite Publique.
+Prix des Nations Unies pour la societe civile (ONUDC).<br>
+Fondee en 1996 I Amesip , Association Marocaine d aide aux Enfants en situation Precaire, declaree d Utilite Publique
+le 18 Fevrier 1998, AMESIP , Association Marocaine d aide aux Enfants en situation Precaire, declaree d Utilite Publique
+les enfants Marocains consideres en situation precaire dans 
+une reinsertion dans la socite Marocaine, en leur permettant d acquerir un savoir adapte a leur situation et a leur
+besoins personnels.<br>
+-<b>ENCS : </b>Ecole Nationale du cirque shems'y de sale<br>
+-<b>CQIJA : </b>Centre de qualification et d'insertion des jeunes de Ameur<br>
+-<b>CACS  : </b>centre des Arts Culinaires shems'y de sale<br>
+-<b>CAEAA : </b>centre des Arts Eques<br>
+-<b>KMKN : </b>Ecole Nationale du cirque shems'y de sale<br>
+-<b>MJFF : </b>Ecole Nationale du cirque shems'y de sale<br>
+-<b>NEW : </b>Ecole Nationale du cirque shems'y de sale<br>
+
+
+            </p>
+       
+           
+            <!-----------button circle------------>
+            <center>
+            <div class="container">
+              <a  href="#"  class="btn btn-primary btn-circle btn-xl">ENCS</a>
+              <a  href="#"  class="btn btn-primary btn-circle btn-xl">CQIJA</a>
+              <a  href="#"  class="btn btn-primary btn-circle btn-xl">CAEAA</a><br><br><br>
+              <a   href="#"  class="btn btn-primary btn-circle btn-xl">CACS</a>
+              <a  href="#"  class="btn btn-primary btn-circle btn-xl">KMKN</a>
+              
+              <a  href="#"  class="btn btn-primary btn-circle btn-xl">MJFF</a>
+          </div>
+        </center>
+        <!----------------botton circle fin-------------------> 
+
+<br><hr><br><h2>titre Evennement : </h2>
+<div class="card-deck">
+    <div class="card">
+        <div class="card-body">
+            <h3 class="card-title">corrouel images Fondues</h3>
+            <!----------slydar------>
+            <div class="container">
+                <div class="card">
+            
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+              
+              <!-- The slideshow -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="image/4.jpg">
+                  
+                </div>
+                <div class="carousel-item">
+                  <img src="image/10.jpg">
+                </div>
+                <div class="carousel-item">
+                  <img src="image/1.png" >
+                </div>
+              </div>
+              
+              <!-- Left and right controls -->
+              <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+            </div>
+            </div>
+            </div>
+            <!-----------fin slydar----------->
+
+        </div></div> 
+     <div class="card">
+         <div class="card-header">Description AMESIP</div>
+         <div class="card-body">
+             <h3 class="card-title">Association Amesip</h5>
+             <p class="card-text">Association Marocaine d aide aux Enfants en situation Precaire, Reconnue d Utilite Publique.
+                Prix des Nations Unies pour la societe civile (ONUDC).<br>
+                Fondee en 1996 I Amesip , Association Marocaine d aide aux Enfants en situation Precaire, declaree d Utilite Publique
+                le 18 Fevrier 1998, AMESIP , Association Marocaine d aide aux Enfants en situation Precaire, declaree d Utilite Publique
+                les enfants Marocains consideres en situation precaire dans 
+                une reinsertion dans la socite Marocaine, en leur permettant d acquerir un savoir adapte a leur situation et a leur
+                besoins personnels.</p></div>
+             
+       <div class="card-footer">Pied / Reference</div></div></div></div>
+       <br><hr><br><h2>titre Evennement : </h2>
+<div class="card-deck">
+    <div class="card">
+        <div class="card-body">
+            <h3 class="card-title">corrouel images Fondues</h3>
+            <!----------slydar------>
+            <div class="container">
+                <div class="card">
+            
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+              
+              <!-- The slideshow -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="image/1.jpg">
+                  
+                </div>
+                <div class="carousel-item">
+                  <img src="image/1.jpg">
+                </div>
+                <div class="carousel-item">
+                  <img src="image/1.jpg" >
+                </div>
+              </div>
+              
+              <!-- Left and right controls -->
+              <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+            </div>
+            </div>
+            </div>
+            <!-----------fin slydar----------->
+
+        </div></div> 
+     <div class="card">
+         <div class="card-header">Description AMESIP</div>
+         <div class="card-body">
+             <h3 class="card-title">Association Amesip</h5>
+             <p class="card-text">Association Marocaine d aide aux Enfants en situation Precaire, Reconnue d Utilite Publique.
+                Prix des Nations Unies pour la societe civile (ONUDC).<br>
+                Fondee en 1996 I Amesip , Association Marocaine d aide aux Enfants en situation Precaire, declaree d Utilite Publique
+                le 18 Fevrier 1998, AMESIP , Association Marocaine d aide aux Enfants en situation Precaire, declaree d Utilite Publique
+                les enfants Marocains consideres en situation precaire dans 
+                une reinsertion dans la socite Marocaine, en leur permettant d acquerir un savoir adapte a leur situation et a leur
+                besoins personnels.</p></div>
+             
+       <div class="card-footer">Pied / Reference</div></div></div>
+     
+    </div>
+       <!----------fin--------->
+
+       <!------------------>
+       <div class="container">
+      
+     <div class="card-group mb-5">
+         <div class="card">
+             <div class="card-header">En-Tete de la premiere carte</div>
+             <div class="card-body">
+                 <h3 class="card-title">Titre de la premiere carte</h5>
+                 <p class="card-text">Une Ligne de texte dans notre premiere carte.</p>
+                 <p class="card-text"><small class="text-muted"> Ligne de texte supplementaire.</small></p></div>
+           <div class="card-footer">Pied de la premiere carte</div></div>
+
+           <div class="card">
+            <div class="card-header">En-Tete de la seconde carte</div>
+            <div class="card-body">
+                <h3 class="card-title">Titre de la seconde carte</h5>
+                    <img src="image/2.JPG"  height="200px" width="200px">
+
+
+           </div>
+           <div class="card-footer">Pied de la seconde carte</div>
+         </div>
+         <div class="card">
+            <div class="card-header">En-Tete de la seconde carte</div>
+            <div class="card-body">
+                <h3 class="card-title">Titre de la seconde carte</h5>
+                    <p class="card-text">Une Ligne de texte dans notre premiere carte.</p>
+                    
+
+
+           </div>
+           <div class="card-footer">Pied de la seconde carte</div>
+         </div>
+     </div>
+                
+      <!----------------Début Formulaire---------------->
+<form>
+<h2><b>Entrer en contact avec nous</b></h2>
+<div class="form-row">
+ <div class="col">
+<input type="text" class="from-control" placeholder="Nom & prenom">
+</div>
+</div>
+
+<div class="form-row">
+  <div class="col">
+ <label for="exampleFormControlinput1">Email address</label>
+<input type="email" class="form-control" id="exampleFormControlinput1" placeholder="name@example.com">
+</div>
+
+<div class="col">
+ <labet for="exampleFormControlinput1">Votre Telephone</labet>
+ <input type="text" class="form-control" placeholder="00-00-00-00-00">
+</div>
+</div>  <br>
+<label for="exampleFormControlSelelct1">Deffinir votre Genre</label>
+<div class="form-row">
+ <div class="col">
+<div class="form-check">
+<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+ <label class="form-check-labet" for="exampleRadios1">
+Homme
+</label>  </div> </div>
+
+<div class="col">
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRdios2" value="option2">
+   <label class="form-check-label" for="exampleRadios2">
+Femme
+</label>
+</div> </div>
+<div class="col">
+<div class="form-group">
+ <select class="form-control" id="exampleFormControlinput1">
+   <option selected>Votre Ville</option>
+   <option>Rabat</option>
+   <option>Sale</option>
+   <option>Casa</option>
+  <option>Tabger</option>
+  <option>Marrakech</option>
+ </select>
+</div> </div> </div>
+<div class="form-row">
+  <div class="col">
+<label for="exampleFormControlTetarea1">Ecrivez votre Message</label>
+  <input type="text" class="form-control" placeholder="Votre Sujet">
+</div> </div>
+
+<div class="form-group">
+  <textarea class="form-control" id="exampleFormControlTa1" rows="3" placeholder="Votre Message ici"></textarea>
+</div>
+
+<button type="submit" class="btn btn-primary">Envoyer le Message</button>
+</form>
+
+
+
+
+
+ 
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

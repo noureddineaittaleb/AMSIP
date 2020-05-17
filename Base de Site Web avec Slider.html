@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Projet de page web Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-------------------------------------------- CSS Code ---------------------------------------------->
+  <!link href="css/corps.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+  <!------------------------------------------ bootstrap javascript ------------------------------------>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+ 
+  <style>
+  /* Mettre Images Entierement responsive */
+  .carousel-inner img {
+    width: 100%;
+    height:100%;
+    }
+  </style>
+
+
+  <style>
+  /* Cadre et Carte du Slider / Images */
+         .fakeimg {
+                   height: 225px;
+                   background: #aaa;
+                  }
+  </style>
+
+
+</head>
+
+<body>
+
+ <!----------------------------------------- Debut En-Tete de la page  --------------------------------------->
+<div class="jumbotron text-center" style="margin-bottom:0">
+<Img src=image/logo2.png width=100% Height=70%>
+ </div>
+ <!----------------------------------------- Fin En-Tete de la page  ----------------------------------------->
+
+
+ <!------------------------------------ Debut Barre de Navigation Menu Horizontal  --------------------------->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">center Amsip</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item"> <a class="nav-link" href="#">ENCS</a>  </li>
+      <li class="nav-item"> <a class="nav-link" href="#">CQUA</a>  </li>
+      <li class="nav-item"> <a class="nav-link" href="BS-1.html">CACS</a> </li>  
+      <li class="nav-item"> <a class="nav-link" href="#">CAEAA</a>  </li>
+      <li class="nav-item"> <a class="nav-link" href="#">KMKN</a>  </li>
+      <li class="nav-item"> <a class="nav-link" href="#">MJFF</a>  </li>
+    </ul>
+
+  </div>  
+</nav>
+ <!---------------------------------- Fin Barre de Navigation Menu Horizontal  ---------------------------------->
+
+
+<!--------------------------Debut Containeur Carrosel et Slider ------------------------------------------------->
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>AMESIP-MAROC</h2>
+      <h5>En Image</h5>
+      <div class="fakeimg">
+
+
+            <!div class="card" style="width:240px;">
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+  </ul>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="image/1.JPG" width="100%" height="100%">
+      <div class="carousel-caption">
+        <h3>Titre </h3>
+        <p>Sous-Titre</p>
+      </div>   
+    </div>
+
+    <div class="carousel-item">
+      <img src="image/7.jpg"  width="100%" height="100%">
+      <div class="carousel-caption">
+        <h3>Titre </h3>
+        <p>Sous-Titre</p>
+      </div>    
+    </div>
+
+    <div class="carousel-item">
+      <img src="image/9.jpg"  width=100% height=100%>
+      <div class="carousel-caption">
+        <h3>Titre </h3>
+        <p>Sous-Titre</p>
+      </div>     
+   </div>
+
+   <div class="carousel-item">
+      <img src="image/4.jpg"  width="100%" height="100%">
+      <div class="carousel-caption">
+        <h3>Titre </h3>
+        <p>Sous-Titre</p>
+      </div>     
+   </div>
+
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+</div></div>    
+<!---------------------------Fin Containeur Carrosel et Slider--------------------------------------------------->
+
+
+<!------------------------------------ Debut du Menu Vertical  -------------------------------------------------->
+      <h3>Liens Utils</h3>
+      <p>Autres liens de la page web.</p>
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">centres amesip</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">ENCS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="BS-1.html">CQUA</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">CACS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">CAEAA</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">KMKM</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">MJFF</a>
+        </li>
+
+
+
+
+
+
+
+
+
+      </ul>
+      <hr class="d-sm-none">
+    </div>
+<!--------------------------------------------- Fin du Menu Vertical  ------------------------------------------>
+
+
+<!---------------------------------- Debut du containeur des grandes photo a droite  --------------------------->
+    <div class="col-sm-8">
+      <h2>Description de l'AMESIP</h2>
+      <h5>TITRE DESCRIPTION 1 - Mars 2020</h5>
+      <div class="fakeimg"><img src="image/HHH.JPEG" width="100%" height="100%"></div>
+      <p>Texte description..</p>
+      <p> Fondée en 1996, l’AMESIP, Association marocaine d'aide aux enfants en situation précaire, déclarée d'Utilité Publique le 18 février 1998, s’est donnée pour but d’accompagner totalement ou partiellement les enfants marocains considérés en situation précaire dans
+        une réinsertion dans la société marocaine,en leur permettant d’acquérir un savoir adapté à leur situation et à leur besoins personnels.</p>
+      <br>
+      <h2>Les partenaires de l'AMESIP :
+      </h2>
+      <h5>TITRE DESCRIPTION 1 - Mars 2020</h5>
+      <div class="fakeimg"><img src="image/9.jpg"  width=100% height=100%></div>
+      <p>Texte description..</p>
+      <p>
+
+        PARTENAIRES NATIONAUX :
+        
+        Ministère de l'Intérieur
+        Ministère de l'Éducation Nationale dont la Direction de l'Éducation non Formelle. Ministère du Développement Social chargé de l'Enfance, de la Famille et des Handicapés.
+        Ministère de la Jeunesse et des Sports
+        Agence de Développement Social
+        Entraide Nationale
+        Collectivités Locales
+        INDH
+        
+        PARTENAIRES ET INSTANCES INTERNATIONALES :
+        
+        UNESCO
+        BIT (Programme IPEC de lutte contre le travail des enfants)
+        ONUDC (Organisation des Nations Unies contre la Drogue et le Crime)
+        
+        AMBASSADES :
+        
+        Ambassade de Belgique
+        Ambassade du Canada
+        Ambassade du Japon
+        Ambassade de Finlande
+        Ambassade de France</p>
+     <br>
+        <h2>Les partenaires de l'AMESIP :</h2>
+        <h5>TITRE DESCRIPTION 1 - Mars 2020</h5>
+        <div class="fakeimg"><img src="image/33.jpg"  width=100% height=100%></div>
+        <p>Texte description..</p>
+        <p>L’AMESIP, présidée par Madame Touraya Bouabid, est une association reconnue d’utilité publique, qui se destine, depuis 1996, à la sauvegarde de l'enfance en situation précaire, en prenant en charge les enfants les plus déshérités des quartiers les plus pauvres.
+          Elle agit plus particulièrement à Rabat, Salé, Temara, Casablanca et Marrakech, où elle apporte à ces jeunes enfants, tout ce qui peut leur manquer dans les domaines de la subsistance, de la scolarisation, de l’hygiène, de l’éducation et des loisirs.
+          L’AMESIP dispose à ce jour de plusieurs centres d'accueil et autre installation, à travers lequels, nous avons en charge, totalement ou partiellement, 1 350 enfants qui étaient en situation précaire auxquels nous dispensons ce dont ils manquent le plus :
+          - Enseignement non formel (arabe ; français ; informatique ; éducation civique, religieuse, artistique ; loisirs ; sport ; …) pour ceux qui n’ont pas pu avoir un cursus scolaire normal
+          - Remise à niveau de un ou deux ans pour ceux qui ont encore la possibilité de rejoindre les écoles du Ministère de l’Education Nationale (après tests en accord avec le MEN)
+          - Prestations de base : repas, habillement, hygiène et soins, fournitures et suivi scolaires, logement si nécessaire, préformation professionnelle puis formation lorsqu’ils ont l’âge requis.
+          - Cours de soutien pour les enfants rescolarisés par nos soins ou enfants de familles démunies des quartiers où nos centres sont implantés
+          - Nous travaillons à la restructuration des liens familiaux disparus ou au renforcement de ceux-ci. Nous aidons à résoudre tous problèmes sociaux ou administratifs : Etat Civil,…
+          - L’AMESIP se donne pour but, lorsqu’elle a recueilli un enfant, de l’accompagner jusqu’à ce qu’il soit engagé dans de bonnes conditions vers un cursus scolaire long ou bien vers une profession gratifiante et adaptée aux goûts de l’adolescent.
+          
+          En outre, notre association innove quasi en permanence dans différents domaines par des programmes divers :
+          -Aide à la scolarisation de la fillette dans le rural.
+          -Parrainage de diverses associations dans les provinces de Zagora, Errachidia, Chtouka-Aït-Baha…
+          -Lutte contre le phénomène des « petites bonnes »,
+          -Sensibilisation aux dangers menaçant la jeunesse : MST, drogues, oisiveté stérile, …
+          -Education à la citoyenneté, à la tolérance,…
+          -Lutte contre le travail des enfants, en partenariat avec le BIT et l’UNESCO
+          -Partenariat avec d’autres associations : échanges d’éducateurs et stages de formation continue de ces éducateurs .
+          
+          Création de structures propres pour formation professionnelle :
+          -Ecole Nationale du cirque Shems'y
+          -Laboratoire photo pour former des techniciens et artistes photographes
+          -Premier centre de désintoxication pour enfants comportant une structure de formation aux métiers du cheval.
+          -Préparation à la passation du permis de conduire pour les jeunes atteignant 17-18 ans
+          -Création d’unités préscolaires
+          -Ecole des arts culinaires</p>
+      
+    </div>
+  </div>
+</div>
+<!--------------------------------------- Fin du containeur des grandes photo a droite ----------------------->
+
+
+<!--------------------------------------- Debut du containeur du pied de page  -------------------------------->
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p>Association Marocaine d'aide aux Enfants en Situation Precaire(Amesip).<br><br>av.Goundafa(qu.Youssoufia ouest), hay Abou Regreg RABAT<br><br>
+    <img src="image/34.PNG"  width="4%"  height="4%"><img src="image/35.jpg"  width="5%"  height="5%"><img src="image/38.jpg"  width="4%"  height="4%"><img src="image/36.jpg" width="6%"  height="6%"></p>
+</div>
+<!--------------------------------------- Fin du containeur du pied de page  --------------------------------->
+</body>
+</html>

@@ -1,0 +1,171 @@
+<html>
+    <head>
+        <title>Carousel Fading Images</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+        <!-------------------------------------------- CSS Code ---------------------------------------------->
+        <!link href="css/corps.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+      
+        <!------------------------------------------ bootstrap javascript ------------------------------------>
+        <!script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+       
+        <style>
+        /* Mettre Images Entierement responsive */
+        .carousel-inner img {
+          width: 100%;
+          height:100%;
+          }
+        </style>
+      
+      
+        <style>
+        /* Cadre et Carte du Slider / Images */
+               .fakeimg {
+                         height: 225px;
+                         background: #aaa;
+                        }
+        </style>
+      </head>
+      <body>
+        <!--------slydar---------->
+<div class="container">
+<div id="demo" class="carousel slide carousel-fade" data-ride="carousel">        
+<!--indicateurs-->
+ <ul class="carousel-indicators">
+  <li data-target="#demo" data-slide-to="0" class="active"></li>
+  <li data-target="#demo" data-slide-to="0" class="active"></li>
+  <li data-target="#demo" data-slide-to="0" class="active"></li>   
+</ul>
+<!--Carrousel Fading Images-->
+ <div class="carousel-inner">
+  <div class="carousel-item active" data-interval="4000">
+   <img src="image/1.jpg" alt="Carrousel slide 1" class="d-bolock w-100">
+</div> 
+<div class="carousel-item" data-interval="2000">
+ <img src="image/2.jpg" alt="carousel slide 2" class="d-blok w-100">
+</div>
+<div class="carousel-item" data-interval="1000">
+  <img src="image/4.jpg" alt="carrousel slide 3" class="d-blok w-100">
+  </div>
+<!--controles-->
+ <a class="carousel-control-prev" href="#demo"role="button" data-slide="prev">
+   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+   <span class="sr-only">Précédent</span>   </a>
+<a class="carousel-control-next" href="#demo" role="button" data-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span> 
+  <span class="sr-only">Suivant</span>    </a>
+</div>
+</div>
+<!-----------------------------Début carte contenu 1---------------------------------->
+<div class="card-body">
+  <div class="shadow p-3 mb-10 bg-white">
+              <h2 class="card-title">A M E S I P </h2>
+              <h3 class="card-subtitle">A propos</h3>
+              <p class="card-text">
+  Association Marocaine d aide aux Enfants en Situation Precaire, Reconnue d Utilite publique.prix des Nations Unies pour la Societe Civile (ONUDC).</br>
+  Fondee en 1996, I AMESSIP,Association marocaine d aide aux enfants en situation precaire, declaree d Utilite publique le 18 fevrier 1998, s est donnee pour but d accompagner totalement ou partiellement les enfants marocains consideres en situation precaire dans
+  une reinsertion dans la societe marocaine,en leur permettant d acquerir un savoir adapte a leur situation et a leur besoins personnels.<br>
+  -<b>ENCS :</b>Ecole Nationale du Cirque shems'y de sale <br>
+  -<b>CQJJA :</b>Centre de qualification et d'insertion des jeunes de Ameur<br>
+  -<b>CACS :</b>Centre des Arts Culinaires Shems'y de Sale<br>
+  -<b>CAEAA :</b>Centre des Arts Equestres de Ain Atig <br>
+  -<b>KMKN :</b>Ecole kan  ya Makkan de Fes jdid <br>
+  -<b>MJFF :</b>Maison de la jeune Fille et de la Femme de Rabat<br>
+  -<b>New :</b>Centre El jadida. <br>
+  </p>
+  <!-----------------------fin carte contenu 1 ------------------------------->
+<!--------------------------------- Debut Menu Nav Bar collapse  --------------------------->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">center Amsip</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item"> <a class="nav-link" href="#">ENCS</a>  </li>
+      <li class="nav-item"> <a class="nav-link" href="#">CQUA</a>  </li>
+      <li class="nav-item"> <a class="nav-link" href="BS-1.html">CACS</a> </li>  
+      <li class="nav-item"> <a class="nav-link" href="#">CAEAA</a>  </li>
+      <li class="nav-item"> <a class="nav-link" href="#">KMKN</a>  </li>
+      <li class="nav-item"> <a class="nav-link" href="#">MJFF</a>  </li>
+    </ul>
+
+  </div>  
+</nav>
+<br>
+            <div class="container">
+        
+              
+              
+              <a  href="#"  class="btn btn-primary btn-circle btn-xl">ENCS</a>
+              <a  href="#"  class="btn btn-primary btn-circle btn-xl">CQIJA</a>
+              <a  href="#"  class="btn btn-primary btn-circle btn-xl">CAEAA</a><br><br><br>
+              <a  href="#"  class="btn btn-primary btn-circle btn-xl">CACS</a>
+              <a  href="#"  class="btn btn-primary btn-circle btn-xl">KMKN</a>
+              
+              <a  href="#"  class="btn btn-primary btn-circle btn-xl">MJFF</a>
+             
+              
+          </div>
+
+<!------------------Début Crtes Evennements------------------->
+<br><hr><br> <h2>Titre Evennement :</h2>
+        <div class="card-deck">
+        <div class="card">
+            <div class="card-body">
+<!-----------------Début slider Evennements------------------>
+      <h3 class="card-title">corrouel images Fondues   <!--------slydar---------->
+        <div class="container">
+        <div id="demo" class="carousel slide carousel-fade" data-ride="carousel">        
+        <!--indicateurs-->
+         <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="0" class="active"></li>   
+        </ul>
+        <!--Carrousel Fading Images-->
+         <div class="carousel-inner">
+          <div class="carousel-item active" data-interval="4000">
+           <img src="image/1.jpg" alt="Carrousel slide 1" class="d-bolock w-100">
+        </div> 
+        <div class="carousel-item" data-interval="2000">
+         <img src="image/2.jpg" alt="carousel slide 2" class="d-blok w-100">
+        </div>
+        <div class="carousel-item" data-interval="1000">
+          <img src="image/4.jpg" alt="carrousel slide 3" class="d-blok w-100">
+          </div>
+        <!--controles-->
+         <a class="carousel-control-prev" href="#demo"role="button" data-slide="prev">
+           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+           <span class="sr-only">Précédent</span>   </a>
+        <a class="carousel-control-next" href="#demo" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span> 
+          <span class="sr-only">Suivant</span>    </a>
+        </div>
+        </div>
+      
+       </h3>
+<!------------------Fin Slider Evennements-------------------->
+  </div>     </div>
+<div class="card">
+  <div class="card-header">Description AMESIP</div>
+   <div class="card-body">
+     <h3 class="card-title">Association Amesip</h5>
+     <p class="card-text">Association Marocaine d aide aux Enfants en Situation precaire,Reconnue d Utilite publique. 
+       prix des Nations Unies pour la Societe Civile (ONUDC).</br>
+       Fondee en 1996, IAMESIP,Association marocaine d aide aux enfants en situation precaire,declaree d utilite publique le 18 fevrier 1998, s est donnee pour but d accompagner totalement
+       ou partiellement les enfants marocains consideres en situation precaire dans une reinsertion dans la societe marocaine, en leur permettant d acquerir un savoir adapte a leur situation et
+       a leur besoins personnels.</p>
+<div class="card-footer">pied / Reference</div>
+<!--------------------Fin Cartes Evennements-------------------->
+<img src="image/10.JPEG" width="50%" height="50%">
+
+</body>
+</html>
